@@ -1,4 +1,6 @@
-﻿namespace MonthlyExpenseControl.Model.MonthlySumary
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MonthlyExpenseControl.Model.MonthlySumary
 {
     /// <summary>
     /// All description and values
@@ -10,7 +12,9 @@
         /// <summary>
         /// The Month Name.
         /// </summary>
+        [Required]
         public string? MonthName { get; set; }
+
         /// <summary>
         /// Contains all earnings for a month.
         /// </summary>

@@ -13,11 +13,11 @@
         /// <summary>
         /// Projected Expense value.
         /// </summary>
-        public double ProjectedExpense { get; set; }
+        public double ProjectedExpense { get; set; } = 0.00;
 
         /// <summary>
         /// Incurred Expense value.
         /// </summary>
-        public double IncurredExpense { get; set; }
+        public double IncurredExpense { get; set; } = 0.00;
     }
 }

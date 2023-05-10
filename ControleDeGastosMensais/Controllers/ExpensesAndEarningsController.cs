@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MonthlyExpenseControl.Model.MonthlySumary;
 
 namespace MonthlyExpenseControl.Api.Controllers
 {
@@ -14,10 +15,10 @@ namespace MonthlyExpenseControl.Api.Controllers
         /// Responsible for creating the demonstrative for a month.
         /// This endpoint must be used to create a new balance for a month that doesn’t exist.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>Sumary</returns>
         [HttpPost]
         [Route("CreateMonthlyPlan")]
-        public IActionResult CreateMonthlyPlan()
+        public IActionResult CreateMonthlyPlan([FromBody] Month monthValues)
         {
             return Ok();
         }

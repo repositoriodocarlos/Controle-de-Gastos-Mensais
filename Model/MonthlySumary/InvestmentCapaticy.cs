@@ -8,11 +8,11 @@
         /// <summary>
         /// Projected investment capacity.
         /// </summary>
-        public double ProjectedInvestmentCapacity { get; set; }
+        public double ProjectedInvestmentCapacity { get; set; } = 0.00;
 
         /// <summary>
         /// Incurred investment capacity 
         /// </summary>
-        public double IncurredInvestmentCapacity { get; set; }
+        public double IncurredInvestmentCapacity { get; set; } = 0.00;
     }
 }

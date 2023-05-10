@@ -13,4 +13,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Model\MonthlyExpenseControl.Model.csproj" />
+  </ItemGroup>
+
 </Project>
